@@ -27,16 +27,15 @@ namespace DisableDurability
     {
         static NoDurabilityLossPatch()
         {
-            Debug.Log(
-                $"[DisableDurability] Patch loaded. " +
-                $"Enabled={ModConfig.Instance.enabled}");
+            Debug.Log($"[DisableDurability] Patch loaded. " + $"Enabled={ModConfig.Instance.enabled}");
         }
 
         [HarmonyPrefix]
         private static bool Prefix()
         {
-            if (!ModConfig.Instance.enabled) return true;  // run original
-            return false;                                   // skip original
+            if (!ModConfig.Instance.enabled)
+                return true; // run original
+            return false; // skip original
         }
     }
 }

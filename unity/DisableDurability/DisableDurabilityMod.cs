@@ -16,33 +16,22 @@ namespace DisableDurability
     /// </summary>
     public sealed class DisableDurabilityMod : IMod
     {
-        public void EarlyInit()
-        {
-        }
+        public void EarlyInit() { }
 
         public void Init()
         {
             BurstDisabler.DisableBurstForSystem<ChangeDurabilitySystem>();
 
-            ModSettings.Section(this)
-                .Toggle(out var en, "enabled", true)
-                .Build();
+            ModSettings.Section(this).Toggle(out var en, "enabled", true).Build();
             ModConfig.Instance.Bind(en);
 
-            Debug.Log(
-                $"[DisableDurability] Mod initialized. Enabled={ModConfig.Instance.enabled}");
+            Debug.Log($"[DisableDurability] Mod initialized. Enabled={ModConfig.Instance.enabled}");
         }
 
-        public void ModObjectLoaded(Object obj)
-        {
-        }
+        public void ModObjectLoaded(Object obj) { }
 
-        public void Shutdown()
-        {
-        }
+        public void Shutdown() { }
 
-        public void Update()
-        {
-        }
+        public void Update() { }
     }
 }
