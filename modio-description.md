@@ -16,7 +16,7 @@ full for good.
 
 ## Settings
 
-Toggle the mod on or off in-game under **Options → Mod Settings** — no need to
+Toggle the mod on or off in-game under **Options → Mod settings** — no need to
 uninstall it to let durability work normally for a while.
 
 ## Requirements

@@ -17,7 +17,7 @@ While the mod is enabled, the game skips the durability-decrement code path for 
 
 ## Configuration
 
-The mod exposes one setting in-game, under **Options → Mod Settings**:
+The mod exposes one setting in-game, under **Options → Mod settings**:
 
 | Setting | Default | Effect |
 |---------|---------|--------|

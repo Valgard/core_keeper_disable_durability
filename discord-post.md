@@ -9,7 +9,7 @@ something to full once and it stays full for good.
 
 ## Settings
 
-**Options → Mod Settings** has an on/off switch, so durability can work
+**Options → Mod settings** has an on/off switch, so durability can work
 normally for a while without uninstalling anything.
 
 ## Requirements
