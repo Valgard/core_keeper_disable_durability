@@ -52,6 +52,10 @@ export CK_MODIO_TYPE="Item|Overhaul|Quality of Life"
 # spaces. Read by utils/discord_post.py; Discord allows at most five.
 export CK_DISCORD_TAGS="Tweaks|Equipment"
 
+# This mod's existing thread in #available-mods. Empty means no thread yet, so
+# a new post is created; set means a new version is announced as a comment.
+export CK_DISCORD_THREAD="https://discord.com/channels/851842678340845600/1083718088526139443/threads/1542175465135939667"
+
 # --- Localisation (read by utils/CLIBuildHelper.cs -> LocalizationGenerator.GenerateFromEnv) ---
 # LOC_TABLE (the shared CK language-address table) is inherited from the parent core_keeper/.envrc.
 export LOC_YAML="$PWD/localization/localization.yaml"
