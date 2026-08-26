@@ -56,6 +56,14 @@ export CK_DISCORD_TAGS="Tweaks|Equipment"
 # a new post is created; set means a new version is announced as a comment.
 export CK_DISCORD_THREAD="https://discord.com/channels/851842678340845600/1083718088526139443/threads/1542175465135939667"
 
+# Images and clips for the post, beyond the logo — PIPE-separated, in the order
+# they should appear. A relative path becomes an attachment, an http(s) URL
+# becomes its own follow-up message (the only route for a clip past Discord's
+# upload ceiling). Empty is legitimate here, unlike CK_DISCORD_TAGS: it means
+# the mod has nothing to show beyond its logo. These four are what the thread
+# was opened with: the scene comparison first, the hotbar detail below it.
+export CK_DISCORD_MEDIA="sources/core_keeper_disable_durability_before.png|sources/core_keeper_disable_durability_after.png|sources/core_keeper_disable_durability_before_hotbar.png|sources/core_keeper_disable_durability_after_hotbar.png"
+
 # --- Localisation (read by utils/CLIBuildHelper.cs -> LocalizationGenerator.GenerateFromEnv) ---
 # LOC_TABLE (the shared CK language-address table) is inherited from the parent core_keeper/.envrc.
 export LOC_YAML="$PWD/localization/localization.yaml"
