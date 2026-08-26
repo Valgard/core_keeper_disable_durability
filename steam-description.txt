@@ -1,0 +1,26 @@
+[h1]Disable Durability[/h1]
+
+Tools, weapons, and armor in Core Keeper slowly wear down as you use them. This mod stops that — while it is active, items no longer lose durability.
+
+Each item's durability bar simply stays where it is: an item at 100/100 stays full, an item at 30/100 stays at 30/100. Nothing you carry will break from use again.
+
+[b]Not a repair mod.[/b] Disable Durability [i]freezes[/i] durability — it does not refill it. Items keep whatever durability they currently have; they will not regenerate back to maximum. Get an item to full durability once and it stays full for good.
+
+[b]Multiplayer:[/b] install the mod on both the client and the server.
+
+[h2]Settings[/h2]
+
+Toggle the mod on or off in-game under Options → Mod settings — no need to uninstall it to let durability work normally for a while.
+
+[h2]Requirements[/h2]
+
+[list]
+[*] Mod Settings Menu (required) — hosts the in-game settings screen
+[*] CoreLib (required) — a dependency of Mod Settings Menu
+[/list]
+
+Steam does not prompt for required items the way mod.io does — subscribe to Mod Settings Menu and CoreLib as well, or the mod will not load.
+
+[hr][/hr]
+
+Built with the official Pugstorm Core Keeper Mod SDK. Personal-use, non-commercial (Core Keeper EULA). Not affiliated with or endorsed by Pugstorm.
