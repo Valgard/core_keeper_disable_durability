@@ -15,4 +15,4 @@ MonoBehaviour:
   modId: 6065466
   modSettings: {fileID: 11400000, guid: ebdd1a5f4689448e79afd24ae05557e2, type: 2}
   logo: {fileID: 0}
-  summary: 
+  summary: Items never lose durability when used.
