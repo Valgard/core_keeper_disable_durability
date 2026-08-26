@@ -19,7 +19,7 @@ Toggle the mod on or off in-game under Options → Mod settings — no need to u
 [*] CoreLib (required) — a dependency of Mod Settings Menu
 [/list]
 
-Steam does not prompt for required items the way mod.io does — subscribe to Mod Settings Menu and CoreLib as well, or the mod will not load.
+These are listed as required items on this Workshop page — Steam will offer to install them alongside the mod.
 
 [hr][/hr]
 
