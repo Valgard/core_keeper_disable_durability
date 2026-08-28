@@ -12,15 +12,6 @@ Each item's durability bar simply stays where it is: an item at 100/100 stays fu
 
 Toggle the mod on or off in-game under Options → Mod settings — no need to uninstall it to let durability work normally for a while.
 
-[h2]Requirements[/h2]
-
-[list]
-[*] Mod Settings Menu (required) — hosts the in-game settings screen
-[*] CoreLib (required) — a dependency of Mod Settings Menu
-[/list]
-
-These are listed as required items on this Workshop page — Steam will offer to install them alongside the mod.
-
 [hr][/hr]
 
 Built with the official Pugstorm Core Keeper Mod SDK. Personal-use, non-commercial (Core Keeper EULA). Not affiliated with or endorsed by Pugstorm.
