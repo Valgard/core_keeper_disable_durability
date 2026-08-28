@@ -14,8 +14,7 @@ normally for a while without uninstalling anything.
 
 ## Requirements
 
-**Mod Settings Menu** and **CoreLib** — mod.io offers to install both when you
-subscribe.
+**Mod Settings Menu** and **CoreLib**, both offered when you subscribe.
 
 ## Multiplayer
 
