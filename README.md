@@ -1,12 +1,16 @@
 # Disable Durability
 
-A small Core Keeper mod that prevents item durability from decreasing when items are used. Built on the official Pugstorm `CoreKeeperModSDK`.
+A small Core Keeper mod that prevents item durability from decreasing when items
+are used. Built on the official Pugstorm `CoreKeeperModSDK`.
 
 ## What it does
 
-While the mod is enabled, the game skips the durability-decrement code path for items in use. The durability bar stays at whatever value the item had when the mod loaded — items at 100/100 stay full; items at 30/100 stay at 30/100.
+While the mod is enabled, the game skips the durability-decrement code path for
+items in use. The durability bar stays at whatever value the item had when the
+mod loaded — items at 100/100 stay full; items at 30/100 stay at 30/100.
 
-**This is not a repair mod.** Items keep their current durability — they do not regenerate to maximum.
+**This is not a repair mod.** Items keep their current durability — they do not
+regenerate to maximum.
 
 ## Requirements
 
